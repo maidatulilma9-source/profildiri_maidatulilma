@@ -1,0 +1,150 @@
+/* ===== RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+
+/* ===== NAVBAR ===== */
+
+nav {
+    background: linear-gradient(to right, #ffb7d5, #88c7f2);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* ===== HEADER ===== */
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffb7d530;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffb7d5;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+
+/* ===== SECTION ===== */
+
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    color: #88c7f2;
+    border-left: 6px solid #ffb7d5;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* ===== LIST STYLE ===== */
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+/* ===== SKILLS ===== */
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #e6e6e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 12px;
+    background: linear-gradient(90deg, #ffb7d5, #88c7f2);
+    border-radius: 10px;
+}
+
+
+/* ===== SOCIAL BUTTON ===== */
+
+.social-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #88c7f2;
+    margin: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-buttons a:hover {
+    background: #ffb7d5;
+    transition: 0.3s;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #88c7f2;
+    color: white;
+    margin-top: 40px;
+}
